@@ -25,7 +25,8 @@ namespace atvi_fila_hospitalar
                 start = Console.ReadLine();
                 if (start == "lista de pacientes")
                 {
-
+                    lista_pacientes f = new lista_pacientes();
+                    f.lista();
                 }
                 if (start == "dados do pacientes" )
                 {

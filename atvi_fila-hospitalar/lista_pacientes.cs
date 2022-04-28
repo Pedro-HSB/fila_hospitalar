@@ -8,6 +8,7 @@ namespace atvi_fila_hospitalar
 {
     class lista_pacientes:cadastro_paciente
     {
+        public string fila;
         public void lista()
         {
 
