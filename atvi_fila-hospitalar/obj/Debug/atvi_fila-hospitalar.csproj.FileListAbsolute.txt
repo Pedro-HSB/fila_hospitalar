@@ -4,3 +4,11 @@ c:\users\tecnico\documents\visual studio 2015\Projects\atvi_fila-hospitalar\atvi
 c:\users\tecnico\documents\visual studio 2015\Projects\atvi_fila-hospitalar\atvi_fila-hospitalar\obj\Debug\atvi_fila-hospitalar.csprojResolveAssemblyReference.cache
 c:\users\tecnico\documents\visual studio 2015\Projects\atvi_fila-hospitalar\atvi_fila-hospitalar\obj\Debug\atvi_fila-hospitalar.exe
 c:\users\tecnico\documents\visual studio 2015\Projects\atvi_fila-hospitalar\atvi_fila-hospitalar\obj\Debug\atvi_fila-hospitalar.pdb
+C:\Users\F_Fonte\source\repos\fila_hospitalar\atvi_fila-hospitalar\obj\Debug\atvi_fila-hospitalar.csproj.AssemblyReference.cache
+C:\Users\F_Fonte\source\repos\fila_hospitalar\atvi_fila-hospitalar\obj\Debug\atvi_fila-hospitalar.csproj.SuggestedBindingRedirects.cache
+C:\Users\F_Fonte\source\repos\fila_hospitalar\atvi_fila-hospitalar\obj\Debug\atvi_fila-hospitalar.csproj.CoreCompileInputs.cache
+C:\Users\F_Fonte\source\repos\fila_hospitalar\atvi_fila-hospitalar\obj\Debug\atvi_fila-hospitalar.exe
+C:\Users\F_Fonte\source\repos\fila_hospitalar\atvi_fila-hospitalar\obj\Debug\atvi_fila-hospitalar.pdb
+C:\Users\F_Fonte\source\repos\fila_hospitalar\atvi_fila-hospitalar\bin\Debug\atvi_fila-hospitalar.exe.config
+C:\Users\F_Fonte\source\repos\fila_hospitalar\atvi_fila-hospitalar\bin\Debug\atvi_fila-hospitalar.exe
+C:\Users\F_Fonte\source\repos\fila_hospitalar\atvi_fila-hospitalar\bin\Debug\atvi_fila-hospitalar.pdb

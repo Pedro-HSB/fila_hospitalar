@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace atvi_fila_hospitalar
 {
-    class cadastro_paciente
+    internal class Pessoa
     {
-
         public int idade;
 
         public string nome;
@@ -49,15 +48,6 @@ namespace atvi_fila_hospitalar
 
         }
 
-        public void ExibirCadastro()
-        {
-            Console.WriteLine(nome);
-            Console.WriteLine(telefone);
-            Console.WriteLine(endereco);
-            Console.WriteLine(rg);
-            Console.WriteLine(idade);
-            Console.WriteLine(cpf);
-            Console.WriteLine(sexualidade);
         }
+
     }
-}
