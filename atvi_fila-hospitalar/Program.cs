@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,57 +12,60 @@ namespace atvi_fila_hospitalar
         {
             string start;
 
-            Console.WriteLine("deseja iniciar o programa ?");
+            Console.WriteLine("Deseja Iniciar o Programa ?");
             start = Console.ReadLine();
                 while (start=="yes" || start == "sim")
             {
-                Console.WriteLine("entrar em:");
+                Console.WriteLine("Entrar Em:");
                 Console.WriteLine("------------------");
-                Console.WriteLine("lista de pacientes");
-                Console.WriteLine("dados do paciente");
-                Console.WriteLine("cadastro de paciente");
+                Console.WriteLine("Lista De Pacientes");
+                Console.WriteLine("Dados Do Paciente");
+                Console.WriteLine("Cadastro De Paciente");
+                Console.WriteLine("Para Encerrar o Programa Precione 'q' ");
                 Console.WriteLine("------------------");
                 start = Console.ReadLine();
-                if (start == "lista de pacientes")
+                if (start == "Lista De Pacientes" || start == "lista de pacientes")
                 {
-                    lista_pacientes f = new lista_pacientes();
+                    Lista_pacientes f = new Lista_pacientes();
                     f.lista();
                 }
-                if (start == "dados do pacientes" )
+                if (start == "Dados Do Paciente" || start == "dados do paciente")
                 {
-                    dados_pacientes d = new dados_pacientes();
-                    d.ExibirCadastro();
+                    Console.WriteLine("----------");
+                    Pessoa a = new Pessoa();
+                    Dados_pacientes b = new Dados_pacientes();
+                    a.ExibirCadastro();
                 }
-                if(start == "cadastro de paciente")
+                if(start == "Cadastro De Paciente"||start == "cadastro de paciente")
                 {
                     Pessoa a = new Pessoa();
-                    a.cadastrar();
-                    Console.WriteLine("Deseja realizar outro cadastro ?");
+                    a.Cadastrar();
+                    Console.WriteLine("Deseja Realizar Outro Cadastro ?");
                     start=Console.ReadLine();
                     while(start == "sim")
                     {
                         Pessoa b= new Pessoa();
-                        b.cadastrar();
-                        Console.WriteLine("Deseja realizar outro cadastro ?");
+                        b.Cadastrar();
+                        Console.WriteLine("Deseja Realizar Outro Cadastro ?");
                         start = Console.ReadLine();
                     }if (start == "nao")
                     {
-                        Console.WriteLine("Deseja fazer outra operacao");
+                        Console.WriteLine("Deseja Fazer Outra Operacao");
                         start = Console.ReadLine();
                     }
                         if (start == "sim")
                         {
-                            Console.WriteLine("entrar em:");
-                            Console.WriteLine("------------------");
-                            Console.WriteLine("lista de pacientes");
-                            Console.WriteLine("dados do paciente");
-                            Console.WriteLine("cadastro de paciente");
-                            Console.WriteLine("------------------");
-                            start = Console.ReadLine();
+                        Console.WriteLine("Entrar Em:");
+                        Console.WriteLine("------------------");
+                        Console.WriteLine("lista De Pacientes");
+                        Console.WriteLine("Dados Do Paciente");
+                        Console.WriteLine("Cadastro De Paciente");
+                        Console.WriteLine("------------------");
+                        start = Console.ReadLine();
                     }
                         else if (start =="nao")
                         {
-                            Console.WriteLine("programa encerrando");
+                            Console.WriteLine("Programa Encerrando");
                             Console.ReadKey();
                         }
                     }
@@ -71,9 +74,9 @@ namespace atvi_fila_hospitalar
                 }
                 
 
-            if (start=="no"||start=="nao")
+            if (start=="no"||start=="nao"||start=="q"||start=="Q")
             {
-                Console.WriteLine("programa encerrando");
+                Console.WriteLine("Programa Encerrando");
                 Console.ReadKey();
             }
 
